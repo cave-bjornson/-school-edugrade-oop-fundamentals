@@ -1,10 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <summary>
-//   Defines the Circle type.
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-
-namespace Shapes
+﻿namespace Shapes
 {
     public class Circle
     {
@@ -24,10 +18,10 @@ namespace Shapes
         public double Area => GetArea();
 
         /// <summary>
-        /// The get area.
+        /// Computes the area of the circle.
         /// </summary>
         /// <returns>
-        /// The <see cref="double"/>.
+        /// The <c>double</c> value of the circles area.
         /// </returns>
         public double GetArea()
         {
