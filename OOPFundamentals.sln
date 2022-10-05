@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7106F24D-0CF4-4B21-9135-38B54F67C5E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeTests", "ConsoleAppTest\ShapeTests.csproj", "{8BD602AC-1C9C-48B1-93D1-B627B519A5FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeTests", "ShapeTests\ShapeTests.csproj", "{8BD602AC-1C9C-48B1-93D1-B627B519A5FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{AA74A3FD-1A29-4B5A-B598-27B884A386B6}"
 EndProject
