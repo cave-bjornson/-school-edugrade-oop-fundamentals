@@ -4,11 +4,11 @@ Första uppgift i OOP ska var inte så svårt att göra. Vi vill att du skapa en enk
 
 ## Vad du ska göra
 
-- [ ]  Skapa ett nytt projekt i Visual studio 2019
-- [ ]  I program.cs ska du skapa en ny klass
-- [ ]  Deklarera klassen med namn `Circle` (namnge)
-- [ ]  Klassen måste innehålla en Constructor med parameter (radie) och en metod.
-- [ ]  Metoden ska heta `getArea()` och returnera arean på cirkeln utifrån dess radie
+- [x]  Skapa ett nytt projekt i Visual studio 2019
+- [x]  I program.cs ska du skapa en ny klass
+- [x]  Deklarera klassen med namn `Circle` (namnge)
+- [x]  Klassen måste innehålla en Constructor med parameter (radie) och en metod.
+- [x]  Metoden ska heta `getArea()` och returnera arean på cirkeln utifrån dess radie
 - [ ]  Skapa ett nytt objekt i Main metoden från klassen
 - [ ]  Räkna ut radien av en cirkel med Radie 5 och en annan cirkel med Radie 6.
 
