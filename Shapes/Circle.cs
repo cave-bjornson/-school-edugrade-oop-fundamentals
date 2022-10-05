@@ -35,7 +35,7 @@
         /// <returns>The <c>double</c> value of the circumference</returns>
         public double GetCircumference()
         {
-            return 2 * Math.PI * _radius;
+            return 2d * Math.PI * _radius;
         }
 
 
@@ -45,7 +45,7 @@
         /// <returns>The <c>double</c> value of the volume.</returns>
         public double GetVolume()
         {
-            return (4.0 / 3.0) * Math.PI * Math.Pow(_radius, 3.0);
+            return (4d / 3d) * Math.PI * Math.Pow(_radius, 3d);
         }
     }
 }
