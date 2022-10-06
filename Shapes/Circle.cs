@@ -28,7 +28,6 @@
             return _radius * _radius * Math.PI;
         }
 
-
         /// <summary>
         /// Computes the circumference of the circle.
         /// </summary>
