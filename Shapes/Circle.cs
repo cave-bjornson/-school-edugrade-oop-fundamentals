@@ -43,7 +43,7 @@
 
         public override string ToString()
         {
-            return $"{nameof(this.GetType)} with: {nameof(_radius)}: {_radius}";
+            return $"{this.GetType().Name} with: {nameof(Radius)}: {_radius}";
         }
     }
 }

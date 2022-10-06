@@ -26,7 +26,7 @@
 
         public override string ToString()
         {
-            return $"{nameof(_base)}: {_base}, {nameof(_height)}: {_height}";
+            return $"{this.GetType().Name} with: {nameof(Base)}: {_base}, {nameof(Height)}: {_height}";
         }
     }
 }
