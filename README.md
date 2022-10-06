@@ -9,8 +9,8 @@ Första uppgift i OOP ska var inte så svårt att göra. Vi vill att du skapa en enk
 - [x]  Deklarera klassen med namn `Circle` (namnge)
 - [x]  Klassen måste innehålla en Constructor med parameter (radie) och en metod.
 - [x]  Metoden ska heta `getArea()` och returnera arean på cirkeln utifrån dess radie
-- [ ]  Skapa ett nytt objekt i Main metoden från klassen
-- [ ]  Räkna ut radien av en cirkel med Radie 5 och en annan cirkel med Radie 6.
+- [x]  Skapa ett nytt objekt i Main metoden från klassen
+- [x]  Räkna ut radien av en cirkel med Radie 5 och en annan cirkel med Radie 6.
 
 ### Tips :
 
