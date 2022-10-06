@@ -1,4 +1,13 @@
-﻿namespace Shapes
+﻿// --------------------------------------------------------------------------------
+// <copyright file="Circle.cs">
+//   Björn Agnemo NET22
+// </copyright>
+// <summary>
+//   Defines the Circle type.
+// </summary>
+// --------------------------------------------------------------------------------
+
+namespace Shapes
 {
     public class Circle
     {

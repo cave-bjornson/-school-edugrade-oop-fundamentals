@@ -1,4 +1,13 @@
-﻿namespace ConsoleApp
+﻿// --------------------------------------------------------------------------------
+// <copyright file="Program.cs">
+//   Björn Agnemo NET22
+// </copyright>
+// <summary>
+//   Demonstrated the <c>Shape</c> classes.
+// </summary>
+// --------------------------------------------------------------------------------
+
+namespace ConsoleApp
 {
     using Shapes;
 
@@ -21,6 +30,7 @@
             Console.WriteLine();
             CircleWriter(circleB);
             Console.WriteLine();
+
             Console.WriteLine(
                 $"A triangle with the base {triangle.Base:N}{Unit} and height {triangle.Height:N}{Unit} "
                 + $"has an area of {triangle.GetArea():N}{Unit}{PowerTwoChar}");

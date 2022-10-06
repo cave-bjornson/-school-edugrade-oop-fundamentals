@@ -1,4 +1,13 @@
-﻿namespace Shapes
+﻿// --------------------------------------------------------------------------------
+// <copyright file="Triangle.cs">
+//   Björn Agnemo NET22
+// </copyright>
+// <summary>
+//   Defines the Triangle type.
+// </summary>
+// --------------------------------------------------------------------------------
+
+namespace Shapes
 {
     public class Triangle
     {
