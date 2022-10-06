@@ -2,20 +2,14 @@
 {
     public class Circle
     {
-        private double _radius;
+        private readonly double _radius;
 
         public Circle(double radius)
         {
             _radius = radius;
         }
 
-        public double Radius
-        {
-            get => _radius;
-            set => _radius = value;
-        }
-
-        public double Area => GetArea();
+        public double Radius => _radius;
 
         /// <summary>
         /// Computes the area of the circle.
@@ -45,6 +39,11 @@
         public double GetVolume()
         {
             return (4d / 3d) * Math.PI * Math.Pow(_radius, 3d);
+        }
+
+        public override string ToString()
+        {
+            return $"{nameof(this.GetType)} with: {nameof(_radius)}: {_radius}";
         }
     }
 }

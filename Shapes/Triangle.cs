@@ -11,6 +11,10 @@
             _height = height;
         }
 
+        public double Base => _base;
+
+        public double Height => _height;
+
         /// <summary>
         /// Computes the area of the triangle.
         /// </summary>
@@ -18,6 +22,11 @@
         public double GetArea()
         {
             return (_base * _height) / 2d;
+        }
+
+        public override string ToString()
+        {
+            return $"{nameof(_base)}: {_base}, {nameof(_height)}: {_height}";
         }
     }
 }
